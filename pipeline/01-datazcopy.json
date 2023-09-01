@@ -54,7 +54,10 @@
 				"outputs": [
 					{
 						"referenceName": "logdataparquet",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"FileName": "log.csv"
+						}
 					}
 				]
 			}
